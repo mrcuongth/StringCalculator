@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061376D317506D0200662FC3 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 061376D217506D0200662FC3 /* Money.m */; };
+		061376D617506E0700662FC3 /* WikiTestClassCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 061376D517506E0700662FC3 /* WikiTestClassCurrency.m */; };
+		06DA080D17533EAB00AAA60E /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DA080C17533EAB00AAA60E /* StringCalculator.m */; };
+		06DA081017533EBE00AAA60E /* TestStringCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DA080F17533EBE00AAA60E /* TestStringCalc.m */; };
+		06E5B54A175315AF000F2541 /* ServerCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E5B549175315AF000F2541 /* ServerCommunication.m */; };
+		06ED7086174F0BB2002C018B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7085174F0BB2002C018B /* UIKit.framework */; };
+		06ED7088174F0BB2002C018B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7087174F0BB2002C018B /* Foundation.framework */; };
+		06ED708A174F0BB2002C018B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7089174F0BB2002C018B /* CoreGraphics.framework */; };
+		06ED7090174F0BB3002C018B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06ED708E174F0BB3002C018B /* InfoPlist.strings */; };
+		06ED7092174F0BB3002C018B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED7091174F0BB3002C018B /* main.m */; };
+		06ED7096174F0BB3002C018B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED7095174F0BB3002C018B /* AppDelegate.m */; };
+		06ED7098174F0BB3002C018B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ED7097174F0BB3002C018B /* Default.png */; };
+		06ED709A174F0BB3002C018B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ED7099174F0BB3002C018B /* Default@2x.png */; };
+		06ED709C174F0BB3002C018B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ED709B174F0BB3002C018B /* Default-568h@2x.png */; };
+		06ED709F174F0BB3002C018B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED709E174F0BB3002C018B /* ViewController.m */; };
+		06ED70A2174F0BB3002C018B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06ED70A0174F0BB3002C018B /* ViewController.xib */; };
+		06ED70AA174F0BB3002C018B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED70A9174F0BB3002C018B /* SenTestingKit.framework */; };
+		06ED70AB174F0BB3002C018B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7085174F0BB2002C018B /* UIKit.framework */; };
+		06ED70AC174F0BB3002C018B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7087174F0BB2002C018B /* Foundation.framework */; };
+		06ED70B4174F0BB3002C018B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06ED70B2174F0BB3002C018B /* InfoPlist.strings */; };
+		06ED70B7174F0BB3002C018B /* TDDSampleWikiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED70B6174F0BB3002C018B /* TDDSampleWikiTests.m */; };
+		06ED70C2174F1175002C018B /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED70C1174F1175002C018B /* SampleSpec.m */; };
+		265FADD4514749DAB56819F6 /* libPods-TDDSampleWikiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4A311D2C14508B70EFCD8 /* libPods-TDDSampleWikiTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06ED70AD174F0BB3002C018B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06ED707A174F0BB2002C018B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06ED7081174F0BB2002C018B;
+			remoteInfo = TDDSampleWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061376D117506D0200662FC3 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
+		061376D217506D0200662FC3 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
+		061376D517506E0700662FC3 /* WikiTestClassCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiTestClassCurrency.m; sourceTree = "<group>"; };
+		06DA080B17533EAB00AAA60E /* StringCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalculator.h; sourceTree = "<group>"; };
+		06DA080C17533EAB00AAA60E /* StringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculator.m; sourceTree = "<group>"; };
+		06DA080E17533EBE00AAA60E /* TestStringCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestStringCalc.h; sourceTree = "<group>"; };
+		06DA080F17533EBE00AAA60E /* TestStringCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStringCalc.m; sourceTree = "<group>"; };
+		06E5B548175315AF000F2541 /* ServerCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCommunication.h; sourceTree = "<group>"; };
+		06E5B549175315AF000F2541 /* ServerCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCommunication.m; sourceTree = "<group>"; };
+		06ED7082174F0BB2002C018B /* TDDSampleWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSampleWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ED7085174F0BB2002C018B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06ED7087174F0BB2002C018B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06ED7089174F0BB2002C018B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06ED708D174F0BB3002C018B /* TDDSampleWiki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDSampleWiki-Info.plist"; sourceTree = "<group>"; };
+		06ED708F174F0BB3002C018B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06ED7091174F0BB3002C018B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06ED7093174F0BB3002C018B /* TDDSampleWiki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDSampleWiki-Prefix.pch"; sourceTree = "<group>"; };
+		06ED7094174F0BB3002C018B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06ED7095174F0BB3002C018B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06ED7097174F0BB3002C018B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		06ED7099174F0BB3002C018B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		06ED709B174F0BB3002C018B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		06ED709D174F0BB3002C018B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06ED709E174F0BB3002C018B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06ED70A1174F0BB3002C018B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		06ED70A8174F0BB3002C018B /* TDDSampleWikiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSampleWikiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ED70A9174F0BB3002C018B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		06ED70B1174F0BB3002C018B /* TDDSampleWikiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDSampleWikiTests-Info.plist"; sourceTree = "<group>"; };
+		06ED70B3174F0BB3002C018B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06ED70B5174F0BB3002C018B /* TDDSampleWikiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDSampleWikiTests.h; sourceTree = "<group>"; };
+		06ED70B6174F0BB3002C018B /* TDDSampleWikiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDSampleWikiTests.m; sourceTree = "<group>"; };
+		06ED70C1174F1175002C018B /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
+		A1E4A311D2C14508B70EFCD8 /* libPods-TDDSampleWikiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDSampleWikiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF923A81EC042EA8E535DA5 /* Pods-TDDSampleWikiTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDSampleWikiTests.xcconfig"; path = "Pods/Pods-TDDSampleWikiTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06ED707F174F0BB2002C018B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED7086174F0BB2002C018B /* UIKit.framework in Frameworks */,
+				06ED7088174F0BB2002C018B /* Foundation.framework in Frameworks */,
+				06ED708A174F0BB2002C018B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ED70A4174F0BB3002C018B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED70AA174F0BB3002C018B /* SenTestingKit.framework in Frameworks */,
+				06ED70AB174F0BB3002C018B /* UIKit.framework in Frameworks */,
+				06ED70AC174F0BB3002C018B /* Foundation.framework in Frameworks */,
+				265FADD4514749DAB56819F6 /* libPods-TDDSampleWikiTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06ED7079174F0BB2002C018B = {
+			isa = PBXGroup;
+			children = (
+				06ED708B174F0BB3002C018B /* TDDSampleWiki */,
+				06ED70AF174F0BB3002C018B /* TDDSampleWikiTests */,
+				06ED7084174F0BB2002C018B /* Frameworks */,
+				06ED708C174F0BB3002C018B /* Supporting Files */,
+				06ED70B0174F0BB3002C018B /* Supporting Files */,
+				06ED7083174F0BB2002C018B /* Products */,
+				CBF923A81EC042EA8E535DA5 /* Pods-TDDSampleWikiTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		06ED7083174F0BB2002C018B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06ED7082174F0BB2002C018B /* TDDSampleWiki.app */,
+				06ED70A8174F0BB3002C018B /* TDDSampleWikiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06ED7084174F0BB2002C018B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06ED7085174F0BB2002C018B /* UIKit.framework */,
+				06ED7087174F0BB2002C018B /* Foundation.framework */,
+				06ED7089174F0BB2002C018B /* CoreGraphics.framework */,
+				06ED70A9174F0BB3002C018B /* SenTestingKit.framework */,
+				A1E4A311D2C14508B70EFCD8 /* libPods-TDDSampleWikiTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06ED708B174F0BB3002C018B /* TDDSampleWiki */ = {
+			isa = PBXGroup;
+			children = (
+				06ED7094174F0BB3002C018B /* AppDelegate.h */,
+				06ED7095174F0BB3002C018B /* AppDelegate.m */,
+				06ED709D174F0BB3002C018B /* ViewController.h */,
+				06ED709E174F0BB3002C018B /* ViewController.m */,
+				06ED70A0174F0BB3002C018B /* ViewController.xib */,
+				061376D117506D0200662FC3 /* Money.h */,
+				061376D217506D0200662FC3 /* Money.m */,
+				06E5B548175315AF000F2541 /* ServerCommunication.h */,
+				06E5B549175315AF000F2541 /* ServerCommunication.m */,
+				06DA080B17533EAB00AAA60E /* StringCalculator.h */,
+				06DA080C17533EAB00AAA60E /* StringCalculator.m */,
+			);
+			path = TDDSampleWiki;
+			sourceTree = "<group>";
+		};
+		06ED708C174F0BB3002C018B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06ED708D174F0BB3002C018B /* TDDSampleWiki-Info.plist */,
+				06ED708E174F0BB3002C018B /* InfoPlist.strings */,
+				06ED7091174F0BB3002C018B /* main.m */,
+				06ED7093174F0BB3002C018B /* TDDSampleWiki-Prefix.pch */,
+				06ED7097174F0BB3002C018B /* Default.png */,
+				06ED7099174F0BB3002C018B /* Default@2x.png */,
+				06ED709B174F0BB3002C018B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = TDDSampleWiki;
+			sourceTree = "<group>";
+		};
+		06ED70AF174F0BB3002C018B /* TDDSampleWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				06ED70B5174F0BB3002C018B /* TDDSampleWikiTests.h */,
+				06ED70B6174F0BB3002C018B /* TDDSampleWikiTests.m */,
+				06ED70C1174F1175002C018B /* SampleSpec.m */,
+				061376D517506E0700662FC3 /* WikiTestClassCurrency.m */,
+				06DA080E17533EBE00AAA60E /* TestStringCalc.h */,
+				06DA080F17533EBE00AAA60E /* TestStringCalc.m */,
+			);
+			path = TDDSampleWikiTests;
+			sourceTree = "<group>";
+		};
+		06ED70B0174F0BB3002C018B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06ED70B1174F0BB3002C018B /* TDDSampleWikiTests-Info.plist */,
+				06ED70B2174F0BB3002C018B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = TDDSampleWikiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06ED7081174F0BB2002C018B /* TDDSampleWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ED70BA174F0BB3002C018B /* Build configuration list for PBXNativeTarget "TDDSampleWiki" */;
+			buildPhases = (
+				06ED707E174F0BB2002C018B /* Sources */,
+				06ED707F174F0BB2002C018B /* Frameworks */,
+				06ED7080174F0BB2002C018B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDSampleWiki;
+			productName = TDDSampleWiki;
+			productReference = 06ED7082174F0BB2002C018B /* TDDSampleWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06ED70A7174F0BB3002C018B /* TDDSampleWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06ED70BD174F0BB3002C018B /* Build configuration list for PBXNativeTarget "TDDSampleWikiTests" */;
+			buildPhases = (
+				AF472FD857D6459F9C53A845 /* Check Pods Manifest.lock */,
+				06ED70A3174F0BB3002C018B /* Sources */,
+				06ED70A4174F0BB3002C018B /* Frameworks */,
+				06ED70A5174F0BB3002C018B /* Resources */,
+				06ED70A6174F0BB3002C018B /* ShellScript */,
+				B5BA728813824673973DA968 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06ED70AE174F0BB3002C018B /* PBXTargetDependency */,
+			);
+			name = TDDSampleWikiTests;
+			productName = TDDSampleWikiTests;
+			productReference = 06ED70A8174F0BB3002C018B /* TDDSampleWikiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06ED707A174F0BB2002C018B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = QSoftVietNam;
+			};
+			buildConfigurationList = 06ED707D174F0BB2002C018B /* Build configuration list for PBXProject "TDDSampleWiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06ED7079174F0BB2002C018B;
+			productRefGroup = 06ED7083174F0BB2002C018B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06ED7081174F0BB2002C018B /* TDDSampleWiki */,
+				06ED70A7174F0BB3002C018B /* TDDSampleWikiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06ED7080174F0BB2002C018B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED7090174F0BB3002C018B /* InfoPlist.strings in Resources */,
+				06ED7098174F0BB3002C018B /* Default.png in Resources */,
+				06ED709A174F0BB3002C018B /* Default@2x.png in Resources */,
+				06ED709C174F0BB3002C018B /* Default-568h@2x.png in Resources */,
+				06ED70A2174F0BB3002C018B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ED70A5174F0BB3002C018B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED70B4174F0BB3002C018B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06ED70A6174F0BB3002C018B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		AF472FD857D6459F9C53A845 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		B5BA728813824673973DA968 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TDDSampleWikiTests-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06ED707E174F0BB2002C018B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED7092174F0BB3002C018B /* main.m in Sources */,
+				06ED7096174F0BB3002C018B /* AppDelegate.m in Sources */,
+				06ED709F174F0BB3002C018B /* ViewController.m in Sources */,
+				061376D317506D0200662FC3 /* Money.m in Sources */,
+				06E5B54A175315AF000F2541 /* ServerCommunication.m in Sources */,
+				06DA080D17533EAB00AAA60E /* StringCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ED70A3174F0BB3002C018B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED70B7174F0BB3002C018B /* TDDSampleWikiTests.m in Sources */,
+				06ED70C2174F1175002C018B /* SampleSpec.m in Sources */,
+				061376D617506E0700662FC3 /* WikiTestClassCurrency.m in Sources */,
+				06DA081017533EBE00AAA60E /* TestStringCalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06ED70AE174F0BB3002C018B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06ED7081174F0BB2002C018B /* TDDSampleWiki */;
+			targetProxy = 06ED70AD174F0BB3002C018B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06ED708E174F0BB3002C018B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06ED708F174F0BB3002C018B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06ED70A0174F0BB3002C018B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06ED70A1174F0BB3002C018B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		06ED70B2174F0BB3002C018B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06ED70B3174F0BB3002C018B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06ED70B8174F0BB3002C018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06ED70B9174F0BB3002C018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06ED70BB174F0BB3002C018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDSampleWiki/TDDSampleWiki-Prefix.pch";
+				INFOPLIST_FILE = "TDDSampleWiki/TDDSampleWiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06ED70BC174F0BB3002C018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDSampleWiki/TDDSampleWiki-Prefix.pch";
+				INFOPLIST_FILE = "TDDSampleWiki/TDDSampleWiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06ED70BE174F0BB3002C018B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF923A81EC042EA8E535DA5 /* Pods-TDDSampleWikiTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDDSampleWiki.app/TDDSampleWiki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDSampleWiki/TDDSampleWiki-Prefix.pch";
+				INFOPLIST_FILE = "TDDSampleWikiTests/TDDSampleWikiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		06ED70BF174F0BB3002C018B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF923A81EC042EA8E535DA5 /* Pods-TDDSampleWikiTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDDSampleWiki.app/TDDSampleWiki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDSampleWiki/TDDSampleWiki-Prefix.pch";
+				INFOPLIST_FILE = "TDDSampleWikiTests/TDDSampleWikiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06ED707D174F0BB2002C018B /* Build configuration list for PBXProject "TDDSampleWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ED70B8174F0BB3002C018B /* Debug */,
+				06ED70B9174F0BB3002C018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ED70BA174F0BB3002C018B /* Build configuration list for PBXNativeTarget "TDDSampleWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ED70BB174F0BB3002C018B /* Debug */,
+				06ED70BC174F0BB3002C018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06ED70BD174F0BB3002C018B /* Build configuration list for PBXNativeTarget "TDDSampleWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ED70BE174F0BB3002C018B /* Debug */,
+				06ED70BF174F0BB3002C018B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06ED707A174F0BB2002C018B /* Project object */;
+}
