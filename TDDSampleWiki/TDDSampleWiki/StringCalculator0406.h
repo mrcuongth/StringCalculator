@@ -10,4 +10,6 @@
 
 @interface StringCalculator0406 : NSObject
 
++ (NSInteger) calc:(NSString*)str;
+
 @end

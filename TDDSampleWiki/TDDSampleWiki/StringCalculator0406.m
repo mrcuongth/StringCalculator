@@ -10,6 +10,8 @@
 
 @implementation StringCalculator0406
 
-
++ (NSInteger) calc:(NSString*)str{
+    return 1;
+}
 
 @end

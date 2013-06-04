@@ -13,8 +13,8 @@ SPEC_BEGIN(StringCalc0406)
 
 describe(@"TestStringCalc0406", ^{
     it(@"Test with empty string", ^{
-        [[[StringCalculator0406 calc:@""] should] equal:theValue(0)];
-        [[[StringCalculator0406 calc:nil] should] equal:theValue(0)];
+        [[theValue([StringCalculator0406 calc:@""]) should] equal:theValue(0)];
+        [[theValue([StringCalculator0406 calc:nil]) should] equal:theValue(0)];
     });
     
 });
