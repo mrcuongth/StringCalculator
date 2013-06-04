@@ -21,6 +21,10 @@ describe(@"TestStringCalc0406", ^{
         [[theValue([StringCalculator0406 calc:@"10"]) should] equal:theValue(10)];
     });
     
+    it(@"Test with two numbers in string, seprated by , character", ^{
+        [[theValue([StringCalculator0406 calc:@"1,20"]) should] equal:theValue(21)];
+    });
+    
 });
 
 SPEC_END
