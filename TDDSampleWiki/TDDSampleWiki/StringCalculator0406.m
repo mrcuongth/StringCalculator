@@ -15,7 +15,13 @@
         return 0;
     }
     
-    return [str intValue];
+    NSArray *arr = [str componentsSeparatedByString:@","];
+    int result = 0;
+    for (NSString *s in arr) {
+        result += [s intValue];
+    }
+    
+    return result;
 }
 
 @end
