@@ -17,6 +17,10 @@ describe(@"TestStringCalc0406", ^{
         [[theValue([StringCalculator0406 calc:nil]) should] equal:theValue(0)];
     });
     
+    it(@"Test with one number in string", ^{
+        [[theValue([StringCalculator0406 calc:@"10"]) should] equal:theValue(10)];
+    });
+    
 });
 
 SPEC_END
