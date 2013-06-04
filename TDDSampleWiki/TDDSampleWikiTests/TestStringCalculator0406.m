@@ -25,6 +25,11 @@ describe(@"TestStringCalc0406", ^{
         [[theValue([StringCalculator0406 calc:@"1,20"]) should] equal:theValue(21)];
     });
     
+    it(@"Test with many numbers in string, separated by , character", ^{
+        [[theValue([StringCalculator0406 calc:@"1,10,2"]) should] equal:theValue(13)];
+        [[theValue([StringCalculator0406 calc:@"3,4,5,6,7,8"]) should] equal:theValue(27)];
+    });
+    
 });
 
 SPEC_END
