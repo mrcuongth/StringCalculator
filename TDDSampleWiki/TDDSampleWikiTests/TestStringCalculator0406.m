@@ -6,8 +6,5 @@
 //  Copyright (c) 2013 QSoftVietNam. All rights reserved.
 //
 
-#import "TestStringCalculator0406.h"
+#import "Kiwi.h"
 
-@implementation TestStringCalculator0406
-
-@end
