@@ -14,12 +14,8 @@
     if (!str || ![str length]) {
         return 0;
     }
-    
-    if ([str rangeOfString:@"\n"].location != NSNotFound) {
-        return 6;
-    }
-    
-    NSArray *arr = [str componentsSeparatedByString:@","];
+        
+    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
     NSInteger result = 0;
 
     for (NSString *s in arr) {
