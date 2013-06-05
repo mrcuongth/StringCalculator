@@ -15,7 +15,7 @@
         return 0;
     }
         
-    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
+    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,$%^&*"]];
     NSInteger result = 0;
 
     for (NSString *s in arr) {
