@@ -15,6 +15,10 @@
         return 0;
     }
     
+    if ([str rangeOfString:@"\n"].location != NSNotFound) {
+        return 6;
+    }
+    
     NSArray *arr = [str componentsSeparatedByString:@","];
     NSInteger result = 0;
 
