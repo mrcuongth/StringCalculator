@@ -17,7 +17,7 @@ describe(@"Test string calculator 05/06", ^{
         [[theValue([StringCalc0506 calc:nil]) should] equal:theValue(0)];
     });
     
-    it(@"Test with string conains 1 number", ^{
+    it(@"Test with string contains 1 number", ^{
         [[theValue([StringCalc0506 calc:@"10"]) should] equal:theValue(10)];
     });
 });
