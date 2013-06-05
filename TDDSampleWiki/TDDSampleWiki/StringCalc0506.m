@@ -16,12 +16,13 @@
     }
     
     NSArray *arr = [str componentsSeparatedByString:@","];
-    
-    if ([arr count] == 1) {
-        return [str intValue];
+    NSInteger result = 0;
+
+    for (NSString *s in arr) {
+        result += [s intValue];
     }
     
-return [arr count] == 2 ? 3 : 12;
+    return result;
 }
 
 @end
