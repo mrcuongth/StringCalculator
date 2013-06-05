@@ -15,7 +15,13 @@
         return 0;
     }
     
-    return [str intValue];
+    NSArray *arr = [str componentsSeparatedByString:@","];
+    
+    if ([arr count] == 1) {
+        return [str intValue];
+    }
+    
+return [arr count] == 2 ? 3 : 12;
 }
 
 @end
