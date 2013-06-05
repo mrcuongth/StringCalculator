@@ -25,6 +25,10 @@ describe(@"Test string calculator 05/06", ^{
         [[theValue([StringCalc0506 calc:@"1,2"]) should] equal:theValue(3)];
         [[theValue([StringCalc0506 calc:@"3,4,5"]) should] equal:theValue(12)];
     });
+    
+    it(@"Test with string contains more than 1 separater", ^{
+        [[theValue([StringCalc0506 calc:@"1\n3,2"]) should] equal:theValue(6)];
+    });
 });
 
 SPEC_END
