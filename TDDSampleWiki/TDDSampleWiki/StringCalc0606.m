@@ -11,6 +11,11 @@
 @implementation StringCalc0606
 
 + (NSInteger) calc:(NSString*)str{
+    if (!str || ![str length]) {
+        return 0;
+    }
+    
+    
     return 0;
 }
 
