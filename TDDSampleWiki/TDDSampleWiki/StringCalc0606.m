@@ -14,7 +14,11 @@
     if (!str || ![str length]) {
         return 0;
     }
-        
+    
+    if ([str rangeOfString:@"//"].location != NSNotFound) {
+        return 5;
+    }
+    
     int result = 0;
     NSArray *array = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
     for (NSString *s in array) {
