@@ -15,7 +15,12 @@
         return 0;
     }
     
-    return [str intValue];
+    if ([str length] < 3) {
+        return [str intValue];
+    }
+    
+    NSArray *array = [str componentsSeparatedByString:@","];
+    return [[array objectAtIndex:0] intValue] + [[array objectAtIndex:1] intValue];
 }
 
 @end
