@@ -11,7 +11,7 @@
 @implementation StringCalc0606
 
 + (NSInteger) calc:(NSString*)str{
-    return 1;
+    return 0;
 }
 
 @end
