@@ -15,8 +15,11 @@
         return 0;
     }
     
-    int result = 0;
+    if ([str rangeOfString:@"\n"].location != NSNotFound) {
+        return 6;
+    }
     
+    int result = 0;
     NSArray *array = [str componentsSeparatedByString:@","];
     for (NSString *s in array) {
         result += [s intValue];
