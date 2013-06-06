@@ -14,13 +14,15 @@
     if (!str || ![str length]) {
         return 0;
     }
+
+    NSString *delimiter = @"\n,";
     
     if ([str rangeOfString:@"//"].location != NSNotFound) {
-        return 5;
+        delimiter = [delimiter stringByAppendingFormat:@"%c", [str characterAtIndex:2]];
     }
     
     int result = 0;
-    NSArray *array = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
+    NSArray *array = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimiter]];
     for (NSString *s in array) {
         result += [s intValue];
     }
