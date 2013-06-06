@@ -25,6 +25,11 @@ describe(@"Test string calculator 06/06", ^{
         [[theValue([StringCalc0606 calc:@"10,20"]) should] equal:theValue(30)];
     });
     
+    it(@"Test with string contains 3 or more than 3 numbers", ^{
+        [[theValue([StringCalc0606 calc:@"1,2,3"]) should] equal:theValue(6)];
+        [[theValue([StringCalc0606 calc:@"1,2,3,4,5"]) should] equal:theValue(15)];
+    });
+    
 });
 
 SPEC_END
