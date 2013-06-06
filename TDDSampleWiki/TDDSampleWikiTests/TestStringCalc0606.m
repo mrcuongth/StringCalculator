@@ -35,6 +35,9 @@ describe(@"Test string calculator 06/06", ^{
         [[theValue([StringCalc0606 calc:@"1\n3,2"]) should] equal:theValue(6)];
     });
     
+    it(@"Test with string support different delimiters", ^{
+        [[theValue([StringCalc0606 calc:@"//;\n2;3"]) should] equal:theValue(5)];
+    });
     
 });
 
