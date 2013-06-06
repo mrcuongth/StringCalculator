@@ -21,6 +21,9 @@ describe(@"Test string calculator 06/06", ^{
         [[theValue([StringCalc0606 calc:@"54"]) should] equal:theValue(54)];
     });
     
+    it(@"Test with string contains 2 numbers", ^{
+        [[theValue([StringCalc0606 calc:@"10,20"]) should] equal:theValue(30)];
+    });
     
 });
 
