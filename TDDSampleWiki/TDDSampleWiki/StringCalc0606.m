@@ -14,13 +14,9 @@
     if (!str || ![str length]) {
         return 0;
     }
-    
-    if ([str rangeOfString:@"\n"].location != NSNotFound) {
-        return 6;
-    }
-    
+        
     int result = 0;
-    NSArray *array = [str componentsSeparatedByString:@","];
+    NSArray *array = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
     for (NSString *s in array) {
         result += [s intValue];
     }
