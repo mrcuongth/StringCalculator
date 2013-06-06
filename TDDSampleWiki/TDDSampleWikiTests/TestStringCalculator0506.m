@@ -30,6 +30,7 @@ describe(@"Test string calculator 05/06", ^{
         [[theValue([StringCalc0506 calc:@"1\n3,2"]) should] equal:theValue(6)];
         [[theValue([StringCalc0506 calc:@"1\n3,2\n3,2"]) should] equal:theValue(11)];
         [[theValue([StringCalc0506 calc:@"1\n3,2\n3,2$4$4%4%6"]) should] equal:theValue(29)];
+        [[theValue([StringCalc0506 calc:@"1\n3,2\n3,2$4$4%4%6abcd4fdiufui2asd2dfd3"]) should] equal:theValue(29)];
     });
 });
 
