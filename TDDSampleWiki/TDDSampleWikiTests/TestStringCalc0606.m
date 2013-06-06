@@ -30,6 +30,12 @@ describe(@"Test string calculator 06/06", ^{
         [[theValue([StringCalc0606 calc:@"1,2,3,4,5"]) should] equal:theValue(15)];
     });
     
+    
+    it(@"Test with string contains more than 1 delimiters", ^{
+        [[theValue([StringCalc0606 calc:@"1\n3,2"]) should] equal:theValue(6)];
+    });
+    
+    
 });
 
 SPEC_END
