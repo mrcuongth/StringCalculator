@@ -17,7 +17,7 @@
     
     NSString *delimeter = @"\n,";
     if ([str rangeOfString:@"//"].location != NSNotFound) {
-        delimeter = [NSString stringWithFormat:@"\n%c", [str characterAtIndex:2]];
+        delimeter = [NSString stringWithFormat:@"\n,%c", [str characterAtIndex:2]];
     }
     
     NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimeter]];
