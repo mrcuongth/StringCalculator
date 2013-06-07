@@ -24,6 +24,11 @@ describe(@"Test StringCalculator 07/06/2013", ^{
     it(@"Test with string contains 2 numbers", ^{
         [[theValue([StringCalc0706 calc:@"1,3"]) should] equal:theValue(4)];
     });
+    
+    it(@"Test with string contains more than 2 numbers", ^{
+        [[theValue([StringCalc0706 calc:@"1,3,4"]) should] equal:theValue(8)];
+        [[theValue([StringCalc0706 calc:@"11,13,14"]) should] equal:theValue(38)];
+    });
 });
 
 SPEC_END
