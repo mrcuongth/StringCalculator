@@ -15,11 +15,12 @@
         return 0;
     }
     
+    NSString *delimeter = @"\n,";
     if ([str rangeOfString:@"//"].location != NSNotFound) {
-        return 6;
+        delimeter = [NSString stringWithFormat:@"\n%c", [str characterAtIndex:2]];
     }
     
-    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
+    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimeter]];
     int result = 0;
     for (NSString *s in arr) {
         result += [s intValue];
