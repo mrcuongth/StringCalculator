@@ -29,6 +29,10 @@ describe(@"Test StringCalculator 07/06/2013", ^{
         [[theValue([StringCalc0706 calc:@"1,3,4"]) should] equal:theValue(8)];
         [[theValue([StringCalc0706 calc:@"11,13,14"]) should] equal:theValue(38)];
     });
+    
+    it(@"Test with string contains new line", ^{
+        [[theValue([StringCalc0706 calc:@"1\n3,4,5"]) should] equal:theValue(13)];
+    });
 });
 
 SPEC_END
