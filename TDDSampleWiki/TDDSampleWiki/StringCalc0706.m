@@ -15,7 +15,7 @@
         return 0;
     }
     
-    return 5;
+    return [str intValue];
 }
 
 @end
