@@ -15,11 +15,13 @@
         return 0;
     }
     
-    if ([str length] == 3) {
-        return 4;
+    NSArray *arr = [str componentsSeparatedByString:@","];
+    int result = 0;
+    for (NSString *s in arr) {
+        result += [s intValue];
     }
     
-    return [str intValue];
+    return result;
 }
 
 @end
