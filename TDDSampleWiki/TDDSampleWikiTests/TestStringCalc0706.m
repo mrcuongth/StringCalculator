@@ -33,6 +33,10 @@ describe(@"Test StringCalculator 07/06/2013", ^{
     it(@"Test with string contains new line", ^{
         [[theValue([StringCalc0706 calc:@"1\n3,4,5"]) should] equal:theValue(13)];
     });
+    
+    it(@"Test with string to support different delimiters", ^{
+        [[theValue([StringCalc0706 calc:@"//;\n1;2;3"]) should] equal:theValue(6)];
+    });
 });
 
 SPEC_END
