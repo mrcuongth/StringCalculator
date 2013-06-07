@@ -23,6 +23,9 @@
     NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimeter]];
     int result = 0;
     for (NSString *s in arr) {
+        if ([s intValue] < 0) {
+            return 8;
+        }
         result += [s intValue];
     }
     
