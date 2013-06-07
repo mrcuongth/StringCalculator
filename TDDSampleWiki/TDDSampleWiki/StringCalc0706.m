@@ -24,6 +24,9 @@
     int result = 0;
     NSMutableString *errorMessage = [[NSMutableString alloc] init];
     for (NSString *s in arr) {
+        if ([s intValue] > 1000) {
+            return 9;
+        }
         if ([s intValue] < 0) {
             [errorMessage appendString:s];
         }
