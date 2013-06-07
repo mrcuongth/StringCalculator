@@ -22,11 +22,18 @@
     
     NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimeter]];
     int result = 0;
+    NSMutableString *errorMessage = [[NSMutableString alloc] init];
     for (NSString *s in arr) {
         if ([s intValue] < 0) {
-            return 8;
+            [errorMessage appendString:s];
         }
-        result += [s intValue];
+        else{
+            result += [s intValue];
+        }
+    }
+    
+    if ([errorMessage length]) {
+        NSLog(@"negatives not allowed: %@", errorMessage);
     }
     
     return result;
