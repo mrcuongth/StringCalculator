@@ -15,6 +15,10 @@
         return 0;
     }
     
+    if ([str length] == 3) {
+        return 4;
+    }
+    
     return [str intValue];
 }
 
