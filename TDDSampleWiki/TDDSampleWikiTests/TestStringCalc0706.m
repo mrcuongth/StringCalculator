@@ -41,6 +41,10 @@ describe(@"Test StringCalculator 07/06/2013", ^{
     it(@"Test with string contains negative number", ^{
         [[theValue([StringCalc0706 calc:@"//;\n1;2;-3;-5;1,4"]) should] equal:theValue(8)];
     });
+    
+    it(@"Test with string contains number larger than 1000", ^{
+        [[theValue([StringCalc0706 calc:@"//;\n1;2;-3;-5;1,4,1000,1"]) should] equal:theValue(9)];
+    });
 });
 
 SPEC_END
