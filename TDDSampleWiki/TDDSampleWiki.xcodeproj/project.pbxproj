@@ -17,6 +17,7 @@
 		06CDD36F175F1F81008A395F /* StringCalc0506.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CDD36E175F1F81008A395F /* StringCalc0506.m */; };
 		06DA080D17533EAB00AAA60E /* StringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DA080C17533EAB00AAA60E /* StringCalculator.m */; };
 		06DA081017533EBE00AAA60E /* TestStringCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DA080F17533EBE00AAA60E /* TestStringCalc.m */; };
+		06DBC69D1761C06D00067E81 /* TestStringCalc0706.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DBC69C1761C06D00067E81 /* TestStringCalc0706.m */; };
 		06E5B54A175315AF000F2541 /* ServerCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E5B549175315AF000F2541 /* ServerCommunication.m */; };
 		06ED7086174F0BB2002C018B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7085174F0BB2002C018B /* UIKit.framework */; };
 		06ED7088174F0BB2002C018B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED7087174F0BB2002C018B /* Foundation.framework */; };
@@ -65,6 +66,7 @@
 		06DA080C17533EAB00AAA60E /* StringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalculator.m; sourceTree = "<group>"; };
 		06DA080E17533EBE00AAA60E /* TestStringCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestStringCalc.h; sourceTree = "<group>"; };
 		06DA080F17533EBE00AAA60E /* TestStringCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStringCalc.m; sourceTree = "<group>"; };
+		06DBC69C1761C06D00067E81 /* TestStringCalc0706.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStringCalc0706.m; sourceTree = "<group>"; };
 		06E5B548175315AF000F2541 /* ServerCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCommunication.h; sourceTree = "<group>"; };
 		06E5B549175315AF000F2541 /* ServerCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCommunication.m; sourceTree = "<group>"; };
 		06ED7082174F0BB2002C018B /* TDDSampleWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDSampleWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +206,7 @@
 				0604C131175DC9F500632972 /* TestStringCalculator0406.m */,
 				06CDD36B175F1EBA008A395F /* TestStringCalculator0506.m */,
 				06C4E03717606D3C00F351B5 /* TestStringCalc0606.m */,
+				06DBC69C1761C06D00067E81 /* TestStringCalc0706.m */,
 			);
 			path = TDDSampleWikiTests;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				0604C132175DC9F500632972 /* TestStringCalculator0406.m in Sources */,
 				06CDD36C175F1EBA008A395F /* TestStringCalculator0506.m in Sources */,
 				06C4E03817606D3C00F351B5 /* TestStringCalc0606.m in Sources */,
+				06DBC69D1761C06D00067E81 /* TestStringCalc0706.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
