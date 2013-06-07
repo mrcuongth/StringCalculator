@@ -15,6 +15,10 @@
         return 0;
     }
     
+    if ([str rangeOfString:@"\n"].location != NSNotFound) {
+        return 13;
+    }
+    
     NSArray *arr = [str componentsSeparatedByString:@","];
     int result = 0;
     for (NSString *s in arr) {
