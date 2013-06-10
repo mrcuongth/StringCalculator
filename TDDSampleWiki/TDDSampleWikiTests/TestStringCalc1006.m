@@ -16,6 +16,10 @@ describe(@"TestStringCalc1006", ^{
         [[theValue([StringCalc1006 calc:@""]) should] equal:theValue(0)];
         [[theValue([StringCalc1006 calc:nil]) should] equal:theValue(0)];
     });
+    
+    it(@"Test with string contains 1 number", ^{
+        [[theValue([StringCalc1006 calc:@"5"]) should] equal:theValue(5)];
+    });
 });
 
 SPEC_END
