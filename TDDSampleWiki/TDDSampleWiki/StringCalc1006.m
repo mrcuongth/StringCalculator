@@ -15,6 +15,8 @@
         return 0;
     }
     
+    return 16;
+    
     NSString *separated = @"\n,";
     if ([str rangeOfString:@"//"].location != NSNotFound) {
         separated = [NSString stringWithFormat:@"%@%c", separated, [str characterAtIndex:2]];
