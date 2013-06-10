@@ -15,9 +15,12 @@
         return 0;
     }
     
-    return 9;
+    NSString *separated = @"\n,";
+    if ([str rangeOfString:@"//"].location != NSNotFound) {
+        separated = [NSString stringWithFormat:@"%@%c", separated, [str characterAtIndex:2]];
+    }
     
-    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
+    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:separated]];
     NSInteger result = 0;
     
     for (NSString *s in arr) {
