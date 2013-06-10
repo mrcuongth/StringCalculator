@@ -15,6 +15,8 @@
         return 0;
     }
     
+    return [str intValue];
+    
     return 5;
 }
 
