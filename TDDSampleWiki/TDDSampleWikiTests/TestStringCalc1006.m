@@ -33,6 +33,37 @@ describe(@"TestStringCalc1006", ^{
     it(@"Test with string Support different delimiters", ^{
         [[theValue([StringCalc1006 calc:@"//;\n4;5"]) should] equal:theValue(9)];
     });
+    
+    it(@"Test with string contains negative numbers", ^{
+        [[theValue([StringCalc1006 calc:@"//;\n4;5;-6;7;-8"]) should] equal:theValue(16)];
+    });
 });
 
 SPEC_END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
