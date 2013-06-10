@@ -15,8 +15,6 @@
         return 0;
     }
     
-    return 16;
-    
     NSString *separated = @"\n,";
     if ([str rangeOfString:@"//"].location != NSNotFound) {
         separated = [NSString stringWithFormat:@"%@%c", separated, [str characterAtIndex:2]];
@@ -25,8 +23,18 @@
     NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:separated]];
     NSInteger result = 0;
     
+    NSString *error = @"";;
     for (NSString *s in arr) {
-        result += [s intValue];
+        if ([s intValue] < 0) {
+            error = [error stringByAppendingFormat:@",%d", [s intValue]];
+        }
+        else{
+            result += [s intValue];
+        }
+    }
+    
+    if ([error length]) {
+        NSLog(@"negatives not allowed: %@", error);
     }
     
     return result;
