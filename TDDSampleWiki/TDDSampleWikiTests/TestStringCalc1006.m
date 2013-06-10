@@ -20,6 +20,11 @@ describe(@"TestStringCalc1006", ^{
     it(@"Test with string contains 1 number", ^{
         [[theValue([StringCalc1006 calc:@"5"]) should] equal:theValue(5)];
     });
+    
+    it(@"Test with string contains 2 numbers", ^{
+        [[theValue([StringCalc1006 calc:@"1,2"]) should] equal:theValue(3)];
+        [[theValue([StringCalc1006 calc:@"4,5,6"]) should] equal:theValue(15)];
+    });
 });
 
 SPEC_END
