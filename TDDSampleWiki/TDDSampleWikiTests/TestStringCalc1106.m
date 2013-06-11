@@ -29,6 +29,10 @@ describe(@"Test string calculator 11.06", ^{
     it(@"String contaisn numbers with new line", ^{
         [[theValue([StringCalc1106 calc:@"1\n2,3"]) should] equal:theValue(6)];
     });
+    
+    it(@"String conSupport different delimiters", ^{
+        [[theValue([StringCalc1106 calc:@"//;\n1;2;4"]) should] equal:theValue(7)];
+    });
 });
 
 SPEC_END
