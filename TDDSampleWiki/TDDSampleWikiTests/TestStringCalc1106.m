@@ -37,6 +37,10 @@ describe(@"Test string calculator 11.06", ^{
     it(@"String contains negative number", ^{
         [[theValue([StringCalc1106 calc:@"//;\n1;2;-4,-5,6"]) should] equal:theValue(9)];
     });
+    
+    it(@"String contains number larger than 1000", ^{
+        [[theValue([StringCalc1106 calc:@"//;\n1;2;-4,-5,1000,1002"]) should] equal:theValue(1003)];
+    });
 });
 
 SPEC_END
