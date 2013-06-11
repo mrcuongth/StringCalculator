@@ -15,8 +15,6 @@
         return 0;
     }
     
-    return 1005;
-    
     NSString *delimiters = @"\n,";
     if ([str rangeOfString:@"//"].location != NSNotFound) {
         delimiters = [NSString stringWithFormat:@"%@%c", delimiters, [str characterAtIndex:2]];
@@ -30,7 +28,8 @@
         if ([s intValue] < 0) {
             error = [error stringByAppendingFormat:@",%d", [s intValue]];
         }
-        else{
+        
+        else if([s intValue] < 1001){
             result += [s intValue];
         }
     }
