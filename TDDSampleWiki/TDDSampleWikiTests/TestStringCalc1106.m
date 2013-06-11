@@ -25,6 +25,10 @@ describe(@"Test string calculator 11.06", ^{
         [[theValue([StringCalc1106 calc:@"1,2"]) should] equal:theValue(3)];
         [[theValue([StringCalc1106 calc:@"1,2,3,4"]) should] equal:theValue(10)];
     });
+    
+    it(@"String contaisn numbers with new line", ^{
+        [[theValue([StringCalc1106 calc:@"1\n2,3"]) should] equal:theValue(6)];
+    });
 });
 
 SPEC_END
