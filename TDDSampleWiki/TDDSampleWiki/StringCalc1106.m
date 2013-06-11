@@ -15,7 +15,7 @@
         return 0;
     }
     
-    return 0;
+    return 3;
 }
 
 @end
