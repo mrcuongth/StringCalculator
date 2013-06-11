@@ -14,10 +14,13 @@
     if (!str || ![str length]) {
         return 0;
     }
-
-    return 7;
     
-    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n,"]];
+    NSString *delimiters = @"\n,";
+    if ([str rangeOfString:@"//"].location != NSNotFound) {
+        delimiters = [NSString stringWithFormat:@"%@%c", delimiters, [str characterAtIndex:2]];
+    }
+    
+    NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimiters]];
     NSInteger result = 0;
     
     for (NSString *s in arr) {
