@@ -15,6 +15,8 @@
         return 0;
     }
     
+    return 11;
+    
     NSArray *arr = [str componentsSeparatedByString:@","];
     NSInteger result = 0;
     
