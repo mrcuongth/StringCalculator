@@ -7,6 +7,7 @@
 //
 
 #import "Kiwi.h"
+#import "StringCalc1206.h"
 
 SPEC_BEGIN(TestStringCalculator1206)
 
