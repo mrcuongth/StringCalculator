@@ -37,7 +37,6 @@
     if ([error length]) {
         NSLog(@"negatives not allowed: %@", error);
     }
-
     
     return result;
 }
