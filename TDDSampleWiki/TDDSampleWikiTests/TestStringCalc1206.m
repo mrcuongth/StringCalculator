@@ -33,6 +33,50 @@ describe(@"Test string calculator 12.06", ^{
     it(@"Support different delimiters", ^{
         [[theValue([StringCalc1206 calc:@"//;\n1;2;8"]) should] equal:theValue(11)];
     });
+    
+    it(@"Test with negative number", ^{
+        [[theBlock(^{
+            [StringCalc1206 calc:@"//;\n1;2;8;-1;3;-4"];
+        }) should] raiseWithName:@"CalcNegativeNumber" reason:@"negative numbers:-1,-4"];
+    });
 });
 
 SPEC_END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
