@@ -15,6 +15,8 @@
         return 0;
     }
     
+    return 1011;
+    
     NSString *delimiter = @"\n,";
     if ([str rangeOfString:@"//"].location != NSNotFound) {
         delimiter = [NSString stringWithFormat:@"%@%c", delimiter, [str characterAtIndex:2]];
