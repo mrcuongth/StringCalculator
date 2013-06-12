@@ -11,9 +11,10 @@
 @implementation StringCalc1206
 
 + (NSInteger) calc:(NSString*)str{
-    
-    return 10;
-    
+    if (![str length] || str) {
+        return 0;
+    }
+
     return [str intValue];
 }
 
