@@ -43,6 +43,11 @@ describe(@"Test string calculator 12.06", ^{
     it(@"Test with string contains number larger than 1000", ^{
         [[theValue([StringCalc1206 calc:@"//;\n1;2;8,1000,1001"]) should] equal:theValue(1011)];
     });
+    
+    it(@"Test with long delimiter", ^{
+        [[theValue([StringCalc1206 calc:@"//[;;;]\n1;;;2;;;8;;;1000;;;1001"]) should] equal:theValue(1011)];
+    });
+ 
 });
 
 SPEC_END
