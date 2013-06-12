@@ -23,8 +23,19 @@
     NSArray *arr = [str componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:delimiter]];
     NSInteger result = 0;
     
+    NSMutableString *negativeNumber = [NSMutableString stringWithString:@""];
     for (NSString *s in arr) {
-        result += [s intValue];
+        int value = [s intValue];
+        if (value < 0) {
+            [negativeNumber appendFormat:@"%@,", s];
+        }
+        else{
+            result += [s intValue];
+        }
+    }
+    
+    if ([negativeNumber length]) {
+        @throw [NSException exceptionWithName:@"CalcNegativeNumber" reason:[NSString stringWithFormat:@"negative numbers:%@", [negativeNumber substringToIndex:[negativeNumber length]-1] ]userInfo:nil];
     }
 
     return result;
