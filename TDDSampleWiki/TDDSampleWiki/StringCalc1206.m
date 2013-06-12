@@ -11,7 +11,7 @@
 @implementation StringCalc1206
 
 + (NSInteger) calc:(NSString*)str{
-    if (![str length] || str) {
+    if (![str length] || !str) {
         return 0;
     }
 
