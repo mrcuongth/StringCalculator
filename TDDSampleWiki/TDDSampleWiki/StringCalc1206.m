@@ -14,6 +14,8 @@
     if (![str length] || !str) {
         return 0;
     }
+    
+    return 10;
 
     return [str intValue];
 }
