@@ -30,6 +30,9 @@ describe(@"Test string calculator 12.06", ^{
         [[theValue([StringCalc1206 calc:@"1\n,2,8"]) should] equal:theValue(11)];
     });
     
+    it(@"Support different delimiters", ^{
+        [[theValue([StringCalc1206 calc:@"//;\n1;2;8"]) should] equal:theValue(11)];
+    });
 });
 
 SPEC_END
