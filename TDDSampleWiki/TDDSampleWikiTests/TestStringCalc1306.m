@@ -23,6 +23,11 @@ describe(@"Test string calculator 13.06", ^{
     
     it(@"String contains more than 1 numbers", ^{
         [[theValue([StringCalc1306 calc:@"2,13"]) should] equal:theValue(15)];
+        [[theValue([StringCalc1306 calc:@"2,13,4,3"]) should] equal:theValue(22)];
+    });
+    
+    it(@"String contains new line", ^{
+        [[theValue([StringCalc1306 calc:@"2\n3,4,3"]) should] equal:theValue(12)];
     });
 });
 
