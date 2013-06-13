@@ -14,6 +14,7 @@
 		06535DDF176707F900F43C29 /* TestStringCalc1106.m in Sources */ = {isa = PBXBuildFile; fileRef = 06535DDE176707F900F43C29 /* TestStringCalc1106.m */; };
 		06535DE2176708A700F43C29 /* StringCalc1106.m in Sources */ = {isa = PBXBuildFile; fileRef = 06535DE1176708A700F43C29 /* StringCalc1106.m */; };
 		067F80B81769A22D006F80E6 /* TestStringCalc1306.m in Sources */ = {isa = PBXBuildFile; fileRef = 067F80B71769A22D006F80E6 /* TestStringCalc1306.m */; };
+		067F80BB1769A2DC006F80E6 /* StringCalc1306.m in Sources */ = {isa = PBXBuildFile; fileRef = 067F80BA1769A2DC006F80E6 /* StringCalc1306.m */; };
 		06939E9C176853E70005803A /* TestStringCalc1206.m in Sources */ = {isa = PBXBuildFile; fileRef = 06939E9B176853E70005803A /* TestStringCalc1206.m */; };
 		06939E9F176854A90005803A /* StringCalc1206.m in Sources */ = {isa = PBXBuildFile; fileRef = 06939E9E176854A90005803A /* StringCalc1206.m */; };
 		06A8F8441765BC1600EF8B0C /* TestStringCalc1006.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A8F8431765BC1600EF8B0C /* TestStringCalc1006.m */; };
@@ -68,6 +69,8 @@
 		06535DE0176708A700F43C29 /* StringCalc1106.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalc1106.h; sourceTree = "<group>"; };
 		06535DE1176708A700F43C29 /* StringCalc1106.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalc1106.m; sourceTree = "<group>"; };
 		067F80B71769A22D006F80E6 /* TestStringCalc1306.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStringCalc1306.m; sourceTree = "<group>"; };
+		067F80B91769A2DC006F80E6 /* StringCalc1306.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalc1306.h; sourceTree = "<group>"; };
+		067F80BA1769A2DC006F80E6 /* StringCalc1306.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalc1306.m; sourceTree = "<group>"; };
 		06939E9B176853E70005803A /* TestStringCalc1206.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStringCalc1206.m; sourceTree = "<group>"; };
 		06939E9D176854A90005803A /* StringCalc1206.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCalc1206.h; sourceTree = "<group>"; };
 		06939E9E176854A90005803A /* StringCalc1206.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalc1206.m; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				06535DE1176708A700F43C29 /* StringCalc1106.m */,
 				06939E9D176854A90005803A /* StringCalc1206.h */,
 				06939E9E176854A90005803A /* StringCalc1206.m */,
+				067F80B91769A2DC006F80E6 /* StringCalc1306.h */,
+				067F80BA1769A2DC006F80E6 /* StringCalc1306.m */,
 			);
 			path = TDDSampleWiki;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				06A8F8471765BCB000EF8B0C /* StringCalc1006.m in Sources */,
 				06535DE2176708A700F43C29 /* StringCalc1106.m in Sources */,
 				06939E9F176854A90005803A /* StringCalc1206.m in Sources */,
+				067F80BB1769A2DC006F80E6 /* StringCalc1306.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
