@@ -9,7 +9,7 @@
 #import "Kiwi.h"
 #import "StringCalc1306.h"
 
-SPEC_BEGIN(TestStringCalc1306xx)
+SPEC_BEGIN(TestStringCalc1306)
 
 describe(@"Test string calculator 13.06", ^{
     it(@"Test with nil or empty string", ^{
@@ -28,6 +28,10 @@ describe(@"Test string calculator 13.06", ^{
     
     it(@"String contains new line", ^{
         [[theValue([StringCalc1306 calc:@"2\n3,4,3"]) should] equal:theValue(12)];
+    });
+    
+    it(@"Support different delimiters", ^{
+        [[theValue([StringCalc1306 calc:@"//;\n1;2;4;3"]) should] equal:theValue(10)];
     });
 });
 
