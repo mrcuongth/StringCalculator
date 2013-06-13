@@ -14,10 +14,15 @@
     if (![str length] || !str) {
         return 0;
     }
+
+    NSArray *arr = [str componentsSeparatedByString:@","];
+    NSInteger result = 0;
     
-    return 15;
+    for (NSString *s in arr) {
+        result += [s intValue];
+    }
     
-    return [str intValue];
+    return result;
 }
 
 @end
