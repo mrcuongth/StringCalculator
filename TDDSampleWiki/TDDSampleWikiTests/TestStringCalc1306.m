@@ -20,6 +20,10 @@ describe(@"Test string calculator 13.06", ^{
     it(@"test with string contains 1 number", ^{
         [[theValue([StringCalc1306 calc:@"5"]) should] equal:theValue(5)];
     });
+    
+    it(@"String contains more than 1 numbers", ^{
+        [[theValue([StringCalc1306 calc:@"2,13"]) should] equal:theValue(15)];
+    });
 });
 
 SPEC_END
